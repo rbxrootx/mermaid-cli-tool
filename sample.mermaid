@@ -1,0 +1,12 @@
+flowchart TD
+    A[Start] --> B{Is it working?}
+    B -->|Yes| C[Great!]
+    B -->|No| D[Debug]
+    D --> B
+    C --> E[Finish]
+    
+    %% This is a comment with a newline \n character
+    %% Let's see if it handles it properly
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#33f,stroke-width:4px,color:#fff,stroke-dasharray: 5 5

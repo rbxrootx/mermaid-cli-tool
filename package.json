@@ -1,0 +1,36 @@
+{
+    "name": "mermaid-cli-tool",
+    "version": "1.0.0",
+    "description": "CLI tool to convert .mermaid files to various formats",
+    "main": "mermaidtools.js",
+    "bin": {
+      "mermaidtools": "./mermaidtools.js"
+    },
+    "scripts": {
+      "start": "node mermaidtools.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "boxen": "^5.1.2",
+      "chalk": "^4.1.2",
+      "commander": "^11.0.0",
+      "figlet": "^1.6.0",
+      "ora": "^5.4.1",
+      "puppeteer": "^22.8.2"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "keywords": [
+      "mermaid",
+      "diagram",
+      "cli",
+      "converter",
+      "pdf",
+      "png",
+      "svg"
+    ],
+    "author": "",
+    "license": "MIT",
+    "preferGlobal": true
+  }
