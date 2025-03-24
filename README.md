@@ -32,7 +32,7 @@ npm install -g
 Or install directly from GitHub:
 
 ```bash
-npm install -g https://github.com/yourusername/mermaid-cli-tool.git
+npm install -g https://github.com/rbxrootx/mermaid-cli-tool.git
 ```
 
 ## Usage
