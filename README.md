@@ -11,7 +11,6 @@ MermaidTools is a powerful CLI tool for converting Mermaid diagram files to vari
 - Interactive mode for quick diagram creation
 - Predefined templates for common diagram types
 - Customizable themes, sizes, and styling
-- Proper newline (\n) handling in diagram text
 - Batch processing with recursive directory support
 - Configuration file support for consistent settings
 
